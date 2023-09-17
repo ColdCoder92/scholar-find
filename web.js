@@ -24,6 +24,18 @@ $(function main(){
             transition(questionPage, ".Desktop2");
         });
     }
+    $(".Desktop8 .Continue").click(function() {
+        transition(".Desktop8", ".Desktop9");
+    });
+    $(".Desktop8 .Back").click(function() {
+        transition(".Desktop8", ".Desktop1");
+    });
+    $(".Desktop9 .Submit").click(function() {
+        transition(".Desktop9", ".Desktop10");
+    });
+    $(".Desktop9 .Back").click(function() {
+        transition(".Desktop9", ".Desktop8");
+    });
     $(".Desktop10 .Home").click(function() {
         transition(".Desktop10", ".Desktop1");
     });
